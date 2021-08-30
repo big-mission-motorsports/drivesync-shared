@@ -17,5 +17,7 @@ namespace BigMission.DeviceApp.Shared
         public string LogLevel { get; set; }
         [JsonIgnore]
         public string Logs { get; set; }
+        [JsonProperty("v")]
+        public string Version { get; set; }
     }
 }

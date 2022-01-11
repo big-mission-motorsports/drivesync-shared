@@ -5,6 +5,8 @@ namespace BigMission.DeviceApp.Shared
 {
     public class DeviceAppHeartbeat
     {
+        [JsonProperty("dk")]
+        public Guid DeviceKey { get; set; }
         [JsonProperty("id")]
         public int DeviceAppId { get; set; }
         [JsonProperty("ts")]

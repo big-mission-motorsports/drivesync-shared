@@ -5,6 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ChannelMappingDto.cs" />
+    <Compile Remove="ConfigurationModels\CanAppConfig.cs" />
+    <Compile Remove="ConfigurationModels\ChannelMapping.cs" />
+    <Compile Remove="ConfigurationModels\DeviceAppConfig.cs" />
+    <Compile Remove="ConfigurationModels\FuelCarAppSetting.cs" />
+    <Compile Remove="ConfigurationModels\KeypadCarAppCanStateRule.cs" />
+    <Compile Remove="ConfigurationModels\KeypadCarAppConfig.cs" />
+    <Compile Remove="ConfigurationModels\KeypadCarAppMomentaryButtonRule.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 

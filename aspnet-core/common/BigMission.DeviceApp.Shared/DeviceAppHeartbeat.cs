@@ -21,5 +21,7 @@ namespace BigMission.DeviceApp.Shared
         public string Logs { get; set; }
         [JsonProperty("v")]
         public string Version { get; set; }
+        [JsonProperty("ip")]
+        public string Ip { get; set; }
     }
 }

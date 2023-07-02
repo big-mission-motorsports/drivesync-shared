@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -16,11 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="BigMission.TestHelpers" Version="2.0.0-CI-20230702-221602" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\BigMission.TestHelpers\BigMission.TestHelpers.csproj" />
   </ItemGroup>
 
 </Project>

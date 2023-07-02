@@ -9,6 +9,7 @@ variables:
 
 steps:
 # Required for custom access to Artifacts
+# https://stackoverflow.com/questions/74597803/azure-pipeline-consuming-azure-artifact-nuget-nu1301-unable-to-load-the-servi
 - task: PowerShell@2
   displayName: "Install Artifacts Provider"
   inputs:

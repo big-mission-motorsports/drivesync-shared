@@ -1,23 +1,34 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<Title>DeviceApp Shared</Title>
+		<Version>2.0.0.0</Version>
+		<Authors>Brian Griggs</Authors>
+		<Company>Big Mission Motorsports, LLC</Company>
+		<Product>Red Mist</Product>
+		<Description>Models for sharing between application tiers</Description>
+		<Copyright>2023</Copyright>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://dev.azure.com/bigmission/RedMist/_git/DeviceApp.Shared</RepositoryUrl>
+		<IncludeSymbols>True</IncludeSymbols>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="ChannelMappingDto.cs" />
-    <Compile Remove="ConfigurationModels\CanAppConfig.cs" />
-    <Compile Remove="ConfigurationModels\ChannelMapping.cs" />
-    <Compile Remove="ConfigurationModels\DeviceAppConfig.cs" />
-    <Compile Remove="ConfigurationModels\FuelCarAppSetting.cs" />
-    <Compile Remove="ConfigurationModels\KeypadCarAppCanStateRule.cs" />
-    <Compile Remove="ConfigurationModels\KeypadCarAppConfig.cs" />
-    <Compile Remove="ConfigurationModels\KeypadCarAppMomentaryButtonRule.cs" />
-  </ItemGroup>
+	<ItemGroup>
+		<Compile Remove="ChannelMappingDto.cs" />
+		<Compile Remove="ConfigurationModels\CanAppConfig.cs" />
+		<Compile Remove="ConfigurationModels\ChannelMapping.cs" />
+		<Compile Remove="ConfigurationModels\DeviceAppConfig.cs" />
+		<Compile Remove="ConfigurationModels\FuelCarAppSetting.cs" />
+		<Compile Remove="ConfigurationModels\KeypadCarAppCanStateRule.cs" />
+		<Compile Remove="ConfigurationModels\KeypadCarAppConfig.cs" />
+		<Compile Remove="ConfigurationModels\KeypadCarAppMomentaryButtonRule.cs" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="BigMission.TestHelpers" Version="2.0.0-CI-20230702-221602" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="BigMission.TestHelpers" Version="2.0.0-CI-20230702-221602" />
+		<PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+	</ItemGroup>
 
 </Project>

@@ -9,7 +9,6 @@
 		<Product>Red Mist</Product>
 		<Description>Models for sharing between application tiers</Description>
 		<Copyright>2023</Copyright>
-		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<RepositoryType>git</RepositoryType>
 		<RepositoryUrl>https://dev.azure.com/bigmission/RedMist/_git/DeviceApp.Shared</RepositoryUrl>
 		<IncludeSymbols>True</IncludeSymbols>

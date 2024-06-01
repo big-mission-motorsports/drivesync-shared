@@ -23,7 +23,7 @@ jobs:
       - name: Restore dependencies
         run: dotnet restore
       - name: Build
-        run: dotnet build BigMission.Drivesync.Shared.csproj --no-restore --configuration Release
+        run: dotnet build BigMission.Drivesync.Shared/BigMission.Drivesync.Shared.csproj --no-restore --configuration Release
       - name: Create the package
         run: dotnet pack BigMission.Drivesync.Shared/BigMission.Drivesync.Shared.csproj --configuration Release
       - name: Publish the package to Nuget

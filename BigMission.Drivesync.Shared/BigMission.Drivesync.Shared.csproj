@@ -10,7 +10,7 @@
 		<Description>Models for sharing between application tiers</Description>
 		<Copyright>2023-2024</Copyright>
 		<RepositoryType>git</RepositoryType>
-		<RepositoryUrl>https://dev.azure.com/bigmission/RedMist/_git/DeviceApp.Shared</RepositoryUrl>
+		<RepositoryUrl>https://github.com/big-mission-motorsports/drivesync-shared</RepositoryUrl>
 		<IncludeSymbols>True</IncludeSymbols>
 	</PropertyGroup>
 
@@ -30,4 +30,14 @@
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>
 
+	<ItemGroup>
+		<None Include="..\LICENSE">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
 </Project>

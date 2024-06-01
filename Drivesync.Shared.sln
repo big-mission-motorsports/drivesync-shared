@@ -3,16 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.33808.371
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BigMission.DeviceApp.Shared", "BigMission.DeviceApp.Shared\BigMission.DeviceApp.Shared.csproj", "{0A3CB724-D5CF-46B0-B444-89A04EED3B8B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{05B2D8A3-987E-4DD8-81B0-A45DE6FF4ADB}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 		nuget.config = nuget.config
-		pipeline-ci.yml = pipeline-ci.yml
-		pipeline-publish.yml = pipeline-publish.yml
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BigMission.Drivesync.Shared", "BigMission.Drivesync.Shared\BigMission.Drivesync.Shared.csproj", "{5F6F5984-CBEB-43FA-A2E8-EBD0E47C64DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,10 +18,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0A3CB724-D5CF-46B0-B444-89A04EED3B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0A3CB724-D5CF-46B0-B444-89A04EED3B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0A3CB724-D5CF-46B0-B444-89A04EED3B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0A3CB724-D5CF-46B0-B444-89A04EED3B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F6F5984-CBEB-43FA-A2E8-EBD0E47C64DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F6F5984-CBEB-43FA-A2E8-EBD0E47C64DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F6F5984-CBEB-43FA-A2E8-EBD0E47C64DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F6F5984-CBEB-43FA-A2E8-EBD0E47C64DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
